@@ -71,4 +71,5 @@ a:hover {
     text-align: right;
     padding-bottom: 10%;
     /* Children within the div control height of divs therefore pls keep percentages*/
+    font-family: 'Raleway', sans-serif; /*Font choice and styling *
 }
