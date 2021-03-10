@@ -1,0 +1,74 @@
+.navbar {
+    font-size: 0.875em;
+
+}
+
+a: {
+    color: #a99c9c;
+}
+
+/*.a is href */
+
+a:hover {
+    color: #ed7d1e;
+}
+
+.navbar-nav li a:hover {
+
+    background-color: transparent;
+}
+
+/*navbar hover highlight */
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+/*navbar brand name AKA Josh's name*/
+
+.orange {
+    color: darkorange;
+
+}
+
+/*navbar brand colour AKA Josh's name*/
+
+.navbar {
+    font-size: 0.875em;
+    margin-bottom: 0px;
+}
+
+/*navbar existing margin removed*/
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+/*navbar toggle for mobile compatibility*/
+
+.herobg {
+    background: url("starter_for_josh_site/heroheaderbg.jpg") no-repeat center center;
+    background-size: cover;
+    /*Background header image covers whole div*/
+    /*padding in percentage, not on the div as it will not be responsive*/
+}
+
+.herobg h1 {
+    float: right;
+    /* float text right*/
+    color: #ffff;
+    width: 341px;
+    /* H1 width applied for design comp text fit*/
+    font-size: 7.125em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    /* weight is bolding of text*/
+    line-height: 75%;
+    margin-top: 140px;
+    /* margine width from navbar */
+    text-align: right;
+    padding-bottom: 10%;
+    /* Children within the div control height of divs therefore pls keep percentages*/
+}
