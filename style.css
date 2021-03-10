@@ -1,3 +1,8 @@
+body{
+font-size:16px;
+font-family: arial, sans-serif;
+}
+
 .navbar {
     font-size: 0.875em;
 
@@ -14,11 +19,13 @@ a:hover {
 }
 
 .navbar-nav li a:hover {
+    
 
     background-color: transparent;
 }
 
 /*navbar hover highlight */
+
 
 .navbar-brand {
     font-size: 2.5em;
@@ -48,14 +55,14 @@ a:hover {
 
 /*navbar toggle for mobile compatibility*/
 
-.herobg {
-    background: url("starter_for_josh_site/heroheaderbg.jpg") no-repeat center center;
+.heroheaderbg {
+    background: url("images/heroheaderbg.jpg") no-repeat center center;
     background-size: cover;
     /*Background header image covers whole div*/
     /*padding in percentage, not on the div as it will not be responsive*/
 }
 
-.herobg h1 {
+.heroheaderbg h1 {
     float: right;
     /* float text right*/
     color: #ffff;
