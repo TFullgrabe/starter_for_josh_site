@@ -131,3 +131,12 @@ a:hover {
 }
 
 /*responsive images now have background */
+
+.article-title h3{
+     font-size:2.0em;
+    font-family: 'Raleway', sans-serif;
+     font-weight:800;
+  color:#3c1f68;
+    
+}
+/*titles for articles now have consistent font family*/
