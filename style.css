@@ -140,3 +140,23 @@ a:hover {
     
 }
 /*titles for articles now have consistent font family*/
+
+h4 {
+
+    font-size: 1.6em;
+    font-family: raleway;
+    font-weight: 400;
+
+}
+
+.date{
+   letter-spacing: 2px;
+    font-size: 0.8em;
+
+}
+
+.readmore{
+    color: #a19ba6;
+    font-size: 0.9em;
+   margin-bottom: 30px; 
+}
