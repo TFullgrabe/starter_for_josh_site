@@ -160,3 +160,11 @@ h4 {
     font-size: 0.9em;
    margin-bottom: 30px; 
 }
+
+footer{
+    background-image:url(images/footer.jpg);
+    background-size:cover;
+    width:100%;
+background-position: center center;
+
+    /*Footer styling*/
