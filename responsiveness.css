@@ -1,10 +1,46 @@
 @media only screen and (max-width: 990px) {
-   .article-cent{
-       text-align:center;
-            }
-    
-   .article-cent img{ 
-       margin: auto;
+    .article-cent {
+        text-align: center;
+    }
+
+    .article-cent img {
+        margin: auto;
     }
 }
+
 /*responsive media q for large devices*/
+
+@media only screen and (max-width: 700px) {
+    .heroheaderbg h1 {
+        float: none;
+        /*remove the float- that pushed the text to the right*/
+        width: 100%;
+        /*        make the text fill the whole width*/
+        text-align: center;
+        /*        center align the text*/
+        margin-top: 60%;
+        /*    push the text down  using 60% of the widht of the browser- this will always adjust according to width of screen*/
+        font-size: 5.125em;
+        /*        reduce the size of font*/
+
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .herobg h1 {
+        float: none;
+        /*remove the float- that pushed the text to the right*/
+        width: 100%;
+        /*        make the text fill the whole width*/
+        text-align: center;
+        /*        center align the text*/
+        margin-top: 60%;
+        /*    push the text down  using 60% of the widht of the browser- this will always adjust according to width of screen*/
+        font-size: 5.125em;
+        /*        reduce the size of font*/
+
+    }
+}
+
+/* title should cover hero face*/
