@@ -44,3 +44,18 @@
 }
 
 /* title should cover hero face*/
+
+@media only screen and (max-width: 500px) {
+  .particle {
+    text-align: center;
+    margin-right: 0px;  
+    }
+    
+    .about-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 1.0em;
+    }
+    
+}
+/* about text reduced to fit*/
