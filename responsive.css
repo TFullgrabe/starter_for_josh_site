@@ -10,7 +10,7 @@
 
 /*responsive media q for large devices*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .heroheaderbg h1 {
         float: none;
         /*remove the float- that pushed the text to the right*/
@@ -27,21 +27,6 @@
 }
 
 
-@media only screen and (max-width: 700px) {
-    .heroheaderbg h1 {
-        float: none;
-        /*remove the float- that pushed the text to the right*/
-        width: 100%;
-        /*        make the text fill the whole width*/
-        text-align: center;
-        /*        center align the text*/
-        margin-top: 60%;
-        /*    push the text down  using 60% of the widht of the browser- this will always adjust according to width of screen*/
-        font-size: 5.125em;
-        /*        reduce the size of font*/
-
-    }
-}
 
 /* title should cover hero face*/
 
@@ -50,12 +35,16 @@
     text-align: center;
     margin-right: 0px;  
     }
+    .about-text{ 
+    font-size: .9em;
+    line-height: 2em;
+    font-family: 'Raleway', sans-serif;
+        }
     
-    .about-text {
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 1.0em;
-    }
+  .heroheaderbg{
+    background-position: -100px center;
     
+}  
 }
 /* about text reduced to fit*/
+
