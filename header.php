@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
     <title>
         <?php
 		      if (function_exists('is_tag') && is_tag()) {
@@ -25,62 +23,42 @@
 		         echo ' - page '. $paged; }
 		   ?>
     </title>
+    
 
 
-    <meta name="description" content="<?php bloginfo('description'); ?>">
-
-
-    <!—Viewport responsive -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
-        <!-- This is the traditional favicon sizing here.
-		 - size: 16x16 or 32x32
-		 - transparency is OK -->
-        <!—Google fonts -->
-
-            <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-
-
-
-            <!-- remove all our styles and any Javascript code. Wordpress automatically calls javascript /jquery elsewhere, calls to javascript are not needed in the header or the footer now-:  -->
-
-
-
-            <?php wp_head(); ?> <!—IMPORTANT TO ADD HERE-->
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+<?php wp_head(); ?> <!—very important that this is added-->
 </head>
-
-
 
 <body>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
+    <header class="container-fluid  heroheaderbg">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span class="josh">
+                            <!-- Span is inline element -->JOSH
+                        </span><span class="orange">WHITKIN</span></a><!-- Control text colour navbar brand AKA josh's name -->
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">PUBLICATIONS</a></li>
+                        <li><a href="#">CV</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
 
-    <nav class="navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><span class="josh">
-                        <!-- Span is inline element -->JOSH
-                    </span><span class="orange">WHITKIN</span></a><!-- Control text colour navbar brand AKA josh's name -->
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">PUBLICATIONS</a></li>
-                    <li><a href="#">CV</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-    <header class="container-fluid heroheaderbg">
+        </nav>
         <div class="container">
             <h1> Game design for the future </h1>
         </div>
