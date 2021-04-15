@@ -1,7 +1,9 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 <section class="container-fluid aboutbg text-center">
     <div class="container">
-        <?php
+        
+        
+<?php
 global $more;//define a global variable
 $more = 0;// the global varibale is now equal to 0
 query_posts('cat=2');//look for posts that have the category of 2
